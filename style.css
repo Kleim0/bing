@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+
+	--white: 240, 246, 240;
+	--black: 44, 45, 45;
+	--darker: 30, 31, 31;
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+}
+
+#canvas {
+	background-color: rgba(var(--black));
+}
